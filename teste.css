@@ -1,0 +1,123 @@
+html, body, * {
+    margin: 0;padding: 0;
+    background-color: black;
+}
+#pop{display:none;position:absolute;top:50%;left:50%;margin-left:-150px;margin-top:-100px;padding:10px;width:300px;height:200px;border:1px solid #d0d0d0}
+
+.tela {
+    display: none;
+}
+.tela.active {
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#bottom-bar {
+    /*margin-left: 10px;*/
+    background: black;
+    bottom: 0;
+    height: 55px;
+    display: flex;
+    position: fixed;
+    margin-left: 30%;
+    }
+#canvasMapa{width: 64px; height:64px; border: solid 1px}
+
+#container{
+
+    margin-right: 50px;
+}
+
+.tela{
+    color: #d1a8e0;
+}
+.titulo{
+    color: #d1a8e0;
+}
+
+.links{
+    color: #d1a8e0;
+    margin: 9px;  
+}
+
+.links2{
+    color: #d1a8e0;
+    margin: 9px;  
+}
+
+.img-fluid{
+    
+    margin-left: 30%;
+}
+
+#mochila{
+    margin-left: 85px;
+    margin-top: 50px;
+}
+
+#matriz{
+    margin-left: 35px;
+    margin-top: 50px;
+    border: #d1a8e0 solid 2px;
+}
+
+
+#titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    margin-left: 65px;   
+    color: white;
+}
+
+.button{
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 300px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.row{
+    /*border: 1px solid #d1a8e0;*/
+    margin: 1px;
+  
+}
+.col{
+    
+    border: 1px solid #d1a8e0;
+    width: 10%;
+    height:20px;
+    margin: 1px;
+    
+}
+
+#cor{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.jscolor{
+    border: 0px solid #d1a8e0;
+}
+
+.botao{
+    padding: 10px;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-left: 70px;
+    color: #d1a8e0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+
+}
+
