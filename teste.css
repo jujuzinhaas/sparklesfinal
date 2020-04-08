@@ -2,7 +2,32 @@ html, body, * {
     margin: 0;padding: 0;
     background-color: black;
 }
-#pop{display:none;position:absolute;top:50%;left:50%;margin-left:-150px;margin-top:-100px;padding:10px;width:300px;height:200px;border:1px solid #d0d0d0}
+#mochilaa{
+    margin-left: 90px;
+}
+.links2{
+    font-size: 17px;
+
+}
+#novidades{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+
+}
+#pop{
+    font-family: 'Montserrat', sans-serif;
+    display:none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-150px;
+    margin-top:-100px;
+    padding: 10px;
+    width:300px;
+    height:200px;
+    border:1px solid #d1a8e0;
+}
 
 .tela {
     display: none;
